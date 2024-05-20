@@ -1,0 +1,40 @@
+# Install docker SWARM
+deploy_logstash = ENV['DEPLOY_LOGSTASH'] || false
+
+Vagrant.configure("2") do |config|
+    
+    #Transfert de port machine -> vm
+    config.vm.network "forwarded_port", guest: 5044, host: 5044
+    config.vm.network "forwarded_port", guest: 9600, host: 9600
+    
+    #Definir le nom de la machine dans vagrant. Replace default
+    config.vm.define "logstash-formation"
+    
+    #Definir le provider 
+    config.vm.provider "virtualbox" do |v|
+        #Definir le nom de la VM dans le provider en remplacement de celui par defaut
+        v.name = "logstash-formation"
+    end
+
+    #Definir le hostname de la VM
+    config.vm.hostname = "logstash-formation"
+    
+    config.vm.box = "bento/ubuntu-24.04"
+
+    config.vm.provision "shell", inline: <<-SHELL
+        #Update DNS
+        sed -i "s/nameserver 127.0.0.53/nameserver 8.8.8.8/g" /etc/resolv.conf
+    SHELL
+
+    #Install Logstash
+    if deploy_logstash
+        config.vm.provision "shell", inline: <<-SHELL
+            wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elastic-keyring.gpg
+            sudo apt-get install apt-transport-https
+            echo "deb [signed-by=/usr/share/keyrings/elastic-keyring.gpg] https://artifacts.elastic.co/packages/8.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-8.x.list
+            sudo apt-get update && sudo apt-get install logstash
+            sudo systemctl start logstash
+        SHELL
+    end
+
+end
