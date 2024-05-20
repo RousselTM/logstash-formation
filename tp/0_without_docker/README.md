@@ -1,4 +1,4 @@
-# logsyash-formation
+# logstash-formation
 
 ## Créer la machine de test 
 Ce dossier est dédié à création d'une machine de test sans Docker. Pour créer la machine, il faut exécuter cette commande : 

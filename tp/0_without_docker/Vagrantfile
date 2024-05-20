@@ -14,6 +14,8 @@ Vagrant.configure("2") do |config|
     config.vm.provider "virtualbox" do |v|
         #Definir le nom de la VM dans le provider en remplacement de celui par defaut
         v.name = "logstash-formation"
+        #RousselTM
+        v.customize ["modifyvm", :id, "--groups", "/RousselTM-Formations"]
     end
 
     #Definir le hostname de la VM
@@ -36,5 +38,9 @@ Vagrant.configure("2") do |config|
             sudo systemctl start logstash
         SHELL
     end
+
+    #Mount folder
+    config.vm.synced_folder "../conf.d", "/etc/logstash/conf.d"
+    config.vm.synced_folder "../logs", "/var/rousseltm/logs"
 
 end
