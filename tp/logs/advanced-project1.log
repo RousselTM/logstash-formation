@@ -1,0 +1,324 @@
+[Mon May 20 15:16:51 2024] 172.24.0.1:60858 [302]: GET /formation/fr/observabilite/ - Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OR `id_owner` IS NULL)' at line 1 in /var/www/html/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /var/www/html/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare('select `created...')
+#1 /var/www/html/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /var/www/html/lib/MysqliDb/MysqliDb.php(649): MysqliDb->_buildQuery(NULL)
+#3 /var/www/html/index.php(36): MysqliDb->query('select `created...')
+#4 {main}
+  thrown in /var/www/html/lib/MysqliDb/MysqliDb.php on line 1988
+[Mon May 20 15:16:51 2024] 172.24.0.1:60862 [404]: GET /formation/fr/observabilite/login.php - No such file or directory
+[Mon May 20 15:16:51 2024] 172.24.0.1:60862 Closing
+[Mon May 20 15:16:51 2024] 172.24.0.1:60874 Accepted
+[Mon May 20 15:16:51 2024] 172.24.0.1:60874 [404]: GET /cart.json - No such file or directory
+[Mon May 20 15:16:51 2024] 172.24.0.1:60874 Closing
+[Mon May 20 15:16:51 2024] 172.24.0.1:60884 Accepted
+[Mon May 20 15:16:51 2024] 172.24.0.1:60884 [404]: GET /favicon.ico - No such file or directory
+[Mon May 20 15:16:51 2024] 172.24.0.1:60884 Closing
+[Mon May 20 17:55:16 2024] 172.24.0.1:53408 Accepted
+[Mon May 20 17:55:16 2024] 172.24.0.1:53408 [302]: GET /formation/fr/observabilite/ - Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OR `id_owner` IS NULL)' at line 1 in /var/www/html/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /var/www/html/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare('select `created...')
+#1 /var/www/html/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /var/www/html/lib/MysqliDb/MysqliDb.php(649): MysqliDb->_buildQuery(NULL)
+#3 /var/www/html/index.php(36): MysqliDb->query('select `created...')
+#4 {main}
+  thrown in /var/www/html/lib/MysqliDb/MysqliDb.php on line 1988
+[Mon May 20 17:55:16 2024] 172.24.0.1:53408 Closing
+[Mon May 20 17:55:16 2024] 172.24.0.1:53410 Accepted
+[Mon May 20 17:55:16 2024] 172.24.0.1:53410 [404]: GET /formation/fr/observabilite/login.php - No such file or directory
+[Mon May 20 17:55:16 2024] 172.24.0.1:53410 Closing
+[Mon May 20 17:55:17 2024] 172.24.0.1:53424 Accepted
+[Mon May 20 17:55:17 2024] 172.24.0.1:53424 [404]: GET /cart.json - No such file or directory
+[Mon May 20 17:55:17 2024] 172.24.0.1:53424 Closing
+[Mon May 20 17:55:22 2024] 172.24.0.1:53432 Accepted
+[Mon May 20 17:55:22 2024] 172.24.0.1:53432 [302]: GET /formation/fr/observabilite/ - Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OR `id_owner` IS NULL)' at line 1 in /var/www/html/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /var/www/html/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare('select `created...')
+#1 /var/www/html/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /var/www/html/lib/MysqliDb/MysqliDb.php(649): MysqliDb->_buildQuery(NULL)
+#3 /var/www/html/index.php(36): MysqliDb->query('select `created...')
+#4 {main}
+  thrown in /var/www/html/lib/MysqliDb/MysqliDb.php on line 1988
+[Mon May 20 17:55:22 2024] 172.24.0.1:53432 Closing
+[Mon May 20 17:55:22 2024] 172.24.0.1:53440 Accepted
+[Mon May 20 17:55:22 2024] 172.24.0.1:53440 [404]: GET /formation/fr/observabilite/login.php - No such file or directory
+[Mon May 20 17:55:22 2024] 172.24.0.1:53440 Closing
+[Mon May 20 17:55:22 2024] 172.24.0.1:53456 Accepted
+[Mon May 20 17:55:22 2024] 172.24.0.1:53456 [404]: GET /cart.json - No such file or directory
+[Mon May 20 17:55:22 2024] 172.24.0.1:53456 Closing
+[Mon May 20 19:25:09 2024] 172.24.0.1:40248 Accepted
+[Mon May 20 19:25:09 2024] 172.24.0.1:40238 Accepted
+[Mon May 20 19:25:09 2024] 172.24.0.1:40238 [302]: GET / - Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OR `id_owner` IS NULL)' at line 1 in /var/www/html/lib/MysqliDb/MysqliDb.php:1988
+Stack trace:
+#0 /var/www/html/lib/MysqliDb/MysqliDb.php(1988): mysqli->prepare('select `created...')
+#1 /var/www/html/lib/MysqliDb/MysqliDb.php(1594): MysqliDb->_prepareQuery()
+#2 /var/www/html/lib/MysqliDb/MysqliDb.php(649): MysqliDb->_buildQuery(NULL)
+#3 /var/www/html/index.php(36): MysqliDb->query('select `created...')
+#4 {main}
+  thrown in /var/www/html/lib/MysqliDb/MysqliDb.php on line 1988
+[Mon May 20 19:25:09 2024] 172.24.0.1:40238 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40248 [200]: GET /login.php
+[Mon May 20 19:25:10 2024] 172.24.0.1:40248 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40258 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40258 [200]: GET /plugins/fontawesome-free/css/all.min.css
+[Mon May 20 19:25:10 2024] 172.24.0.1:40264 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40266 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40264 [200]: GET /dist/css/adminlte.min.css
+[Mon May 20 19:25:10 2024] 172.24.0.1:40278 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40258 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40266 [200]: GET /plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css
+[Mon May 20 19:25:10 2024] 172.24.0.1:40282 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40278 [200]: GET /plugins/daterangepicker/daterangepicker.css
+[Mon May 20 19:25:10 2024] 172.24.0.1:40288 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40266 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40288 [200]: GET /dist/css/custom.css
+[Mon May 20 19:25:10 2024] 172.24.0.1:40278 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40288 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40264 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40282 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.css
+[Mon May 20 19:25:10 2024] 172.24.0.1:40292 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40282 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40294 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40294 [200]: GET /plugins/jquery/jquery.min.js
+[Mon May 20 19:25:10 2024] 172.24.0.1:40292 [200]: GET /dist/img/DynamicQRCode_Original.png
+[Mon May 20 19:25:10 2024] 172.24.0.1:40294 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40292 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40300 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40300 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+[Mon May 20 19:25:10 2024] 172.24.0.1:40310 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40300 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40310 [200]: GET /dist/js/adminlte.js
+[Mon May 20 19:25:10 2024] 172.24.0.1:40310 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40320 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40320 [200]: GET /plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+[Mon May 20 19:25:10 2024] 172.24.0.1:40320 Closing
+[Mon May 20 19:25:10 2024] 172.24.0.1:40328 Accepted
+[Mon May 20 19:25:10 2024] 172.24.0.1:40328 [404]: GET /cart.json - No such file or directory
+[Mon May 20 19:25:10 2024] 172.24.0.1:40328 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40342 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40346 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40342 [302]: POST /authenticate.php
+[Mon May 20 19:25:12 2024] 172.24.0.1:40342 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40346 [200]: GET /index.php
+[Mon May 20 19:25:12 2024] 172.24.0.1:40346 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40350 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40350 [200]: GET /plugins/fontawesome-free/css/all.min.css
+[Mon May 20 19:25:12 2024] 172.24.0.1:40350 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40366 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40366 [200]: GET /dist/css/adminlte.min.css
+[Mon May 20 19:25:12 2024] 172.24.0.1:40366 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40370 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40370 [200]: GET /plugins/daterangepicker/daterangepicker.css
+[Mon May 20 19:25:12 2024] 172.24.0.1:40390 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40370 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40390 [200]: GET /dist/css/custom.css
+[Mon May 20 19:25:12 2024] 172.24.0.1:40390 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40374 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40374 [200]: GET /plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css
+[Mon May 20 19:25:12 2024] 172.24.0.1:40374 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40384 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40384 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.css
+[Mon May 20 19:25:12 2024] 172.24.0.1:40384 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40392 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40392 [200]: GET /dist/img/Symbol_WhiteBlue.png
+[Mon May 20 19:25:12 2024] 172.24.0.1:40392 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40406 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40406 [200]: GET /plugins/jquery/jquery.min.js
+[Mon May 20 19:25:12 2024] 172.24.0.1:40406 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40408 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40418 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40408 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+[Mon May 20 19:25:12 2024] 172.24.0.1:40418 [200]: GET /dist/js/adminlte.js
+[Mon May 20 19:25:12 2024] 172.24.0.1:40408 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40418 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40430 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40436 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40444 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40458 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40430 [200]: GET /dist/js/custom.js?nocache=1285778747
+[Mon May 20 19:25:12 2024] 172.24.0.1:40436 [200]: GET /plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js
+[Mon May 20 19:25:12 2024] 172.24.0.1:40444 [200]: GET /plugins/overlayScrollbars/js/OverlayScrollbars.js
+[Mon May 20 19:25:12 2024] 172.24.0.1:40458 [200]: GET /plugins/daterangepicker/daterangepicker.js
+[Mon May 20 19:25:12 2024] 172.24.0.1:40430 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40436 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40472 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40458 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40444 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40472 [200]: GET /plugins/chart.js/Chart.min.js
+[Mon May 20 19:25:12 2024] 172.24.0.1:40472 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40474 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40474 [200]: GET /plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+[Mon May 20 19:25:12 2024] 172.24.0.1:40474 Closing
+[Mon May 20 19:25:12 2024] 172.24.0.1:40484 Accepted
+[Mon May 20 19:25:12 2024] 172.24.0.1:40484 [404]: GET /cart.json - No such file or directory
+[Mon May 20 19:25:12 2024] 172.24.0.1:40484 Closing
+[Mon May 20 19:25:18 2024] 172.24.0.1:35014 Accepted
+[Mon May 20 19:25:18 2024] 172.24.0.1:35014 [200]: GET /plugins/fontawesome-free/webfonts/fa-regular-400.woff2
+[Mon May 20 19:25:18 2024] 172.24.0.1:35014 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35018 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35020 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35018 [200]: GET /dynamic_qrcodes.php
+[Mon May 20 19:25:21 2024] 172.24.0.1:35018 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35034 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35020 [200]: GET /plugins/fontawesome-free/css/all.min.css
+[Mon May 20 19:25:21 2024] 172.24.0.1:35038 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35034 [200]: GET /dist/css/adminlte.min.css
+[Mon May 20 19:25:21 2024] 172.24.0.1:35040 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35038 [200]: GET /plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css
+[Mon May 20 19:25:21 2024] 172.24.0.1:35050 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35020 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35040 [200]: GET /plugins/daterangepicker/daterangepicker.css
+[Mon May 20 19:25:21 2024] 172.24.0.1:35050 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.css
+[Mon May 20 19:25:21 2024] 172.24.0.1:35038 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35040 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35050 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35034 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35054 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35054 [200]: GET /dist/css/custom.css
+[Mon May 20 19:25:21 2024] 172.24.0.1:35054 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35064 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35064 [200]: GET /dist/img/Symbol_WhiteBlue.png
+[Mon May 20 19:25:21 2024] 172.24.0.1:35064 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35074 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35074 [200]: GET /dist/js/custom.js?nocache=1890240132
+[Mon May 20 19:25:21 2024] 172.24.0.1:35074 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35088 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35094 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35102 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35094 [200]: GET /dist/js/adminlte.js
+[Mon May 20 19:25:21 2024] 172.24.0.1:35094 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35102 [200]: GET /plugins/jquery/jquery.min.js
+[Mon May 20 19:25:21 2024] 172.24.0.1:35102 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35088 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+[Mon May 20 19:25:21 2024] 172.24.0.1:35088 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35112 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35112 [200]: GET /plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js
+[Mon May 20 19:25:21 2024] 172.24.0.1:35112 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35118 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35118 [200]: GET /plugins/daterangepicker/daterangepicker.js
+[Mon May 20 19:25:21 2024] 172.24.0.1:35118 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35132 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35136 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35140 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35148 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35148 [200]: GET /saved_qrcode/test.png
+[Mon May 20 19:25:21 2024] 172.24.0.1:35150 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35136 [200]: GET /plugins/overlayScrollbars/js/OverlayScrollbars.js
+[Mon May 20 19:25:21 2024] 172.24.0.1:35166 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35132 [200]: GET /saved_qrcode/Apple.jpg
+[Mon May 20 19:25:21 2024] 172.24.0.1:35140 [200]: GET /saved_qrcode/Google.png
+[Mon May 20 19:25:21 2024] 172.24.0.1:35148 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35150 [200]: GET /saved_qrcode/Amazon.png
+[Mon May 20 19:25:21 2024] 172.24.0.1:35132 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35136 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35140 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35150 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35166 [200]: GET /saved_qrcode/Youtube.png
+[Mon May 20 19:25:21 2024] 172.24.0.1:35166 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35168 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35168 [200]: GET /saved_qrcode/Facebook.png
+[Mon May 20 19:25:21 2024] 172.24.0.1:35168 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35180 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35196 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35180 [200]: GET /plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+[Mon May 20 19:25:21 2024] 172.24.0.1:35180 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35196 [200]: GET /plugins/fontawesome-free/webfonts/fa-regular-400.woff2
+[Mon May 20 19:25:21 2024] 172.24.0.1:35196 Closing
+[Mon May 20 19:25:21 2024] 172.24.0.1:35212 Accepted
+[Mon May 20 19:25:21 2024] 172.24.0.1:35212 [404]: GET /cart.json - No such file or directory
+[Mon May 20 19:25:21 2024] 172.24.0.1:35212 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51256 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51252 [200]: GET /static_qrcodes.php
+[Mon May 20 19:25:36 2024] 172.24.0.1:51252 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51268 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51256 [200]: GET /plugins/fontawesome-free/css/all.min.css
+[Mon May 20 19:25:36 2024] 172.24.0.1:51284 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51268 [200]: GET /dist/css/adminlte.min.css
+[Mon May 20 19:25:36 2024] 172.24.0.1:51298 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51284 [200]: GET /plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css
+[Mon May 20 19:25:36 2024] 172.24.0.1:51308 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51256 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51298 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.css
+[Mon May 20 19:25:36 2024] 172.24.0.1:51308 [200]: GET /plugins/daterangepicker/daterangepicker.css
+[Mon May 20 19:25:36 2024] 172.24.0.1:51284 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51298 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51308 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51268 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51318 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51318 [200]: GET /dist/css/custom.css
+[Mon May 20 19:25:36 2024] 172.24.0.1:51318 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51324 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51332 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51324 [200]: GET /dist/img/Symbol_WhiteBlue.png
+[Mon May 20 19:25:36 2024] 172.24.0.1:51324 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51338 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51332 [200]: GET /plugins/jquery/jquery.min.js
+[Mon May 20 19:25:36 2024] 172.24.0.1:51332 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51348 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51338 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+[Mon May 20 19:25:36 2024] 172.24.0.1:51348 [200]: GET /dist/js/custom.js?nocache=911746027
+[Mon May 20 19:25:36 2024] 172.24.0.1:51358 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51338 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51348 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51370 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51370 [200]: GET /plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js
+[Mon May 20 19:25:36 2024] 172.24.0.1:51370 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51358 [200]: GET /dist/js/adminlte.js
+[Mon May 20 19:25:36 2024] 172.24.0.1:51358 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51382 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51382 [200]: GET /plugins/daterangepicker/daterangepicker.js
+[Mon May 20 19:25:36 2024] 172.24.0.1:51382 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51394 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51406 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51394 [200]: GET /saved_qrcode/Send%20BTC.jpg
+[Mon May 20 19:25:36 2024] 172.24.0.1:51414 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51394 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51406 [200]: GET /plugins/overlayScrollbars/js/OverlayScrollbars.js
+[Mon May 20 19:25:36 2024] 172.24.0.1:51406 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51414 [200]: GET /saved_qrcode/Pay%20here.png
+[Mon May 20 19:25:36 2024] 172.24.0.1:51414 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51428 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51444 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51444 [200]: GET /saved_qrcode/Save%20me.svg
+[Mon May 20 19:25:36 2024] 172.24.0.1:51420 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51444 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51420 [200]: GET /saved_qrcode/Boat%20party.png
+[Mon May 20 19:25:36 2024] 172.24.0.1:51428 [200]: GET /saved_qrcode/Free%20wifi.png
+[Mon May 20 19:25:36 2024] 172.24.0.1:51420 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51428 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51450 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51454 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51450 [200]: GET /saved_qrcode/John%20Doe.png
+[Mon May 20 19:25:36 2024] 172.24.0.1:51450 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51454 [200]: GET /saved_qrcode/New%20York.png
+[Mon May 20 19:25:36 2024] 172.24.0.1:51468 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51454 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51468 [200]: GET /saved_qrcode/wa.me.svg
+[Mon May 20 19:25:36 2024] 172.24.0.1:51468 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51484 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51484 [200]: GET /saved_qrcode/Send%20sms.png
+[Mon May 20 19:25:36 2024] 172.24.0.1:51484 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51488 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51504 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51504 [200]: GET /saved_qrcode/Call%20me.png
+[Mon May 20 19:25:36 2024] 172.24.0.1:51520 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51504 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51520 [200]: GET /saved_qrcode/Text%20qr%20code.png
+[Mon May 20 19:25:36 2024] 172.24.0.1:51520 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51488 [200]: GET /saved_qrcode/Email.jpg
+[Mon May 20 19:25:36 2024] 172.24.0.1:51488 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51522 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51522 [200]: GET /plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+[Mon May 20 19:25:36 2024] 172.24.0.1:51522 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51534 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51534 [200]: GET /plugins/fontawesome-free/webfonts/fa-regular-400.woff2
+[Mon May 20 19:25:36 2024] 172.24.0.1:51534 Closing
+[Mon May 20 19:25:36 2024] 172.24.0.1:51542 Accepted
+[Mon May 20 19:25:36 2024] 172.24.0.1:51542 [404]: GET /cart.json - No such file or directory
+[Mon May 20 19:25:36 2024] 172.24.0.1:51542 Closing
+[Mon May 21 17:15:36 2024] 172.24.0.1:51522 [200]: GET /plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+[Mon May 21 19:25:36 2024] 172.24.0.1:51420 [200]: GET /saved_qrcode/Boat%20party.png
+[Mon May 21 19:25:36 2024] 172.24.0.1:51428 [200]: GET /saved_qrcode/Free%20wifi.png
+[Mon May 21 19:25:36 2024] 172.24.0.1:51406 [200]: GET /plugins/overlayScrollbars/js/OverlayScrollbars.js
+[Mon May 21 19:25:36 2024] 172.24.0.1:51298 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.css
+[Mon May 21 19:25:36 2024] 172.24.0.1:51308 [200]: GET /plugins/daterangepicker/daterangepicker.css
